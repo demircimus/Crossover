@@ -1,6 +1,9 @@
 package com.crossover.techtrial.repository;
 
 import com.crossover.techtrial.model.Panel;
+
+import java.util.Optional;
+
 import org.springframework.data.repository.PagingAndSortingRepository;
 import org.springframework.data.rest.core.annotation.RestResource;
 /**
@@ -12,4 +15,5 @@ import org.springframework.data.rest.core.annotation.RestResource;
 @RestResource(exported = false)
 public interface PanelRepository extends PagingAndSortingRepository<Panel, Long> {
   Panel findBySerial(String serial);
+ 
 }

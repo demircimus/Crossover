@@ -11,7 +11,7 @@ public class CrossSolarApplicationTests {
 
   @Test
   public void contextLoads() {
-    
+	 
   }
 
 }
